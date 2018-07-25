@@ -31,7 +31,7 @@ function salvar(form) {
     var data = new Date(document.getElementById('frm-data').value);
     var email = document.getElementById('frm-email').value;
     var nome = document.getElementById('frm-nome').value;
-    var datahj = new Date()
+    var datahj = new Date();
     var noticia = {
         id: noticias.length,
         titulo: titulo,
